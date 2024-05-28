@@ -3,8 +3,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy.stats import norm
 
-
-#Computes the stock price matrix in the CRR model
+#test
+#Computes the stock price matrix in the CRR model 
 def CRR_stock(S_0, r, sigma, T, M):
 
     delta_t = T / M # Time step
