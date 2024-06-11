@@ -83,10 +83,11 @@ BS_prices_np = np.array(BS_prices)
 errors_np = np.abs(CRR_prices_np - BS_prices_np)
 print('Errors:', errors_np)
 
-#Plotting
-plt.plot(BS_prices_np, errors_np)
-plt.title('Comparison of CRR and Black-Scholes Prices')
-plt.xlabel('BS Prices')
-plt.ylabel('Error')
-plt.grid(True, linestyle='--', alpha=0.5) 
+# plot the absolute error of the approximation against the real Black-Scholes price
+plt.figure()
+plt.clf()
+plt.plot(K_values, errors_np, 'blue', label='Absolute error for original conditions')
+plt.xlabel('Strike price')
+plt.ylabel('Deviation from real BS-price')
+plt.legend()
 plt.show()
