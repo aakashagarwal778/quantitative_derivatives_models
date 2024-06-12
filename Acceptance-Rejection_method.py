@@ -4,7 +4,7 @@ from scipy.stats import norm
 
 # Parameters
 a = 0
-b = 2
+b = 1
 mu = 0.5
 sigma = 1
 N = 10000
