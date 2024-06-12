@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import scipy.integrate as integrate
 
 # test parameters
-r = 0.05
+r = 0.05 # risk-free rate
 sigma = 0.3
 T = 1
 S0 = range(60, 141, 1)
