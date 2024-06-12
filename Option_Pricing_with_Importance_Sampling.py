@@ -77,7 +77,7 @@ plt.ylabel('Option Prices')
 plt.title('Comparison of Option Prices with Importance Sampling and Black-Scholes Price')
 plt.legend()
 plt.grid(True)
-plt.show()
+plt.show() 
 
 
 
