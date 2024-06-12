@@ -7,7 +7,7 @@ a = 0
 b = 2
 mu = 0.5
 sigma = 1
-N = 10000
+N = 100000
 
 def density(x, a, b, mu, sigma): #density of the truncated normal distribution
     if a <= x and x <= b:
