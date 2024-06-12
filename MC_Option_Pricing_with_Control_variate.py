@@ -4,7 +4,7 @@ from scipy.stats import norm
 
 # Parameters
 S0 = 100
-r = 0.05
+r = 0.05 #risk-free rate
 sigma = 0.3
 T = 1
 K = 110
