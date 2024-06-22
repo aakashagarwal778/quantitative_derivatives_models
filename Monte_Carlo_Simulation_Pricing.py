@@ -1,4 +1,3 @@
-## Aakash Agarwal, Anderson Sasu | Group: 29 | Exercise: 07
 import math
 import numpy as np
 import scipy.stats 
