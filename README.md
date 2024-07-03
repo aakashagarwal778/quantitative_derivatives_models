@@ -7,7 +7,6 @@ The repository covers a wide range of topics within the field of quantitative fi
 2. Monte Carlo simulation methods for pricing and risk analysis of derivatives.
 3. Numerical methods for solving partial differential equations (PDEs) arising in derivative pricing.
 4. Sensitivity analysis and hedging strategies for managing derivative portfolio risk.
-5. Machine learning approaches for derivative pricing and risk management.
-6. Backtesting and validation of derivative pricing models using historical data.
+5. Backtesting and validation of derivative pricing models using historical data.
 
 The repository aims to provide a comprehensive learning resource for individuals interested in mastering the quantitative aspects of derivative modeling and analysis through a combination of theoretical discussions, practical examples, and code implementations.

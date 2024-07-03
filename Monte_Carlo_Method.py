@@ -49,7 +49,7 @@ def MC_option_prices(paths, r, T, K, option_type='call'):
             option_prices[i, t] = np.exp(-r * (t * dt)) * payoff
     return option_prices
 
-# Function to visualize option price simulations
+# Function to visualize option price simulations for calls
 def plot_simulation(paths, option_prices):
     plt.figure(figsize=(10, 6))
     for i in range(len(paths)):
@@ -58,7 +58,7 @@ def plot_simulation(paths, option_prices):
     plt.xlabel('Time Steps')
     plt.ylabel('Option Price')
     plt.grid(True)
-    plt.show()
+    plt.show() 
 
 # Main simulation process
 def main():
