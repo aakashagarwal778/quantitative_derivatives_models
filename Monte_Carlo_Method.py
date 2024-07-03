@@ -58,7 +58,6 @@ def plot_simulation(paths, option_prices):
     plt.xlabel('Time Steps')
     plt.ylabel('Option Price')
     plt.grid(True)
-    plt.legend()
     plt.show()
 
 # Main simulation process
@@ -70,6 +69,8 @@ def main():
 
         # Calculate option prices for both call and put options using Monte Carlo simulation
         option_prices_call = MC_option_prices(paths, r, T, K, option_type='call')
+        print(option_prices_call)
+        print(f"Average call option price: {np.mean(option_prices_call)}")
 
         # Visualize option price simulations for calls
         plot_simulation(paths, option_prices_call)
