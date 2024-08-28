@@ -64,5 +64,7 @@ for i in range(0, len(S)):
 
 plt.plot(S, V, label='Price with finite difference scheme')
 plt.plot(S, V_BS, label='Price with BS-Formula')
+plt.xlabel('Stock Price')
+plt.ylabel('Option Price')
 plt.legend()
 plt.show()
