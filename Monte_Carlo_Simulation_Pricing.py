@@ -32,7 +32,7 @@ def call_payoff(ST, K):
 S0 = 110 # Initial stock price
 r = 0.04 # Risk-free rate
 sigma = 0.2 # Volatility
-T = 1 # Time to maturity
+T = 30/365 # Time to maturity (in trading days)
 K = 100 # Strike price
 M = 10000 # Number of samples
 

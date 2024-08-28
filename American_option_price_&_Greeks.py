@@ -9,7 +9,7 @@ T = 1  # time to maturity in years
 S0 = range(60, 141, 1)  # range of initial stock prices
 K = 110  # strike price
 N = 100  # number of time steps
-eps = 0.001  # small change for finite difference
+eps = 0.0001  # small change for finite difference
 
 # Function to compute the binomial tree for an American option
 def binomial_tree_american(S0, K, r, sigma, T, N, option_type='call'):
@@ -51,7 +51,7 @@ american_option_prices = []
 for S in S0:
     price = binomial_tree_american(S, K, r, sigma, T, N, option_type='call')
     american_option_prices.append(price)
-
+'''
 # Plot the American option prices
 plt.plot(S0, american_option_prices, label='American Call Option Price')
 plt.xlabel('S0')
@@ -60,7 +60,7 @@ plt.title('American Call Option Price vs Initial Stock Price (S0)')
 plt.legend()
 plt.grid(True)
 plt.show()
-
+'''
 # Function to compute the Greeks using finite differences
 def binomial_tree_greeks(S0, K, r, sigma, T, N, eps, option_type='call'):
     price = binomial_tree_american(S0, K, r, sigma, T, N, option_type)
