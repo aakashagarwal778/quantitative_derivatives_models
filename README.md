@@ -1,5 +1,18 @@
 # qdlib
 
+![PyPI - Version](https://img.shields.io/badge/pypi-v0.1.2-blue)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Python Version](https://img.shields.io/badge/python-3.8%20%7C%203.9%20%7C%203.10-blue)
+
+---
+
+### Installation
+Since this is currently on TestPyPI, install it using:
+
+```bash
+pip install -i [https://test.pypi.org/simple/](https://test.pypi.org/simple/) qdlib
+```
+
 A structured Python library for foundational and intermediate quantitative derivatives models, numerical pricing methods, volatility models, calibration workflows, and explanatory notebooks.
 
 ## What this project is
@@ -51,3 +64,10 @@ quant-derivatives-library/
 ├── notebooks/
 ├── data/
 └── docs/
+```
+
+---
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

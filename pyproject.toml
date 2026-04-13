@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "qdlib"
-version = "0.1.1"
+version = "0.1.2"
 description = "A structured Python library for derivatives pricing models, numerical methods, volatility models, and calibration workflows."
 readme = "README.md"
 authors = [{name = "Aakash Agarwal"}]
